@@ -7,7 +7,7 @@ def isprime(num):
     for i in range(2,s+1):
         if num%i==0:
             return 0
-        return 1
+     return 1
 def findprime(n,data):
      prime=[]
      nonprime=[]
