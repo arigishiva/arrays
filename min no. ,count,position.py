@@ -15,3 +15,18 @@ n=int(input())
 data=list(map(int,input().split()))
 minval=findmin(n,data)
 print(*minval)
+
+              or
+def findmin(n,data)
+   s=min(data)
+   c=data.count(s)
+   ind=[s,l]
+   for i in range(n):
+        if s==data[i]:
+            ind.append(i)
+   return ind
+n=int(input())
+data=list(map(int,input().split()))
+minval=findmin(n,data)
+print(*minval)
+
